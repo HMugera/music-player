@@ -10,11 +10,17 @@ import Song from "./components/song";
 function App() {
 	//state
 	const [songs, setSongs] = useState(data());
+	const [currentSong, setcurrentSong] = useState(songs[0]);
+	const [isPlaying, setIsPlaying] = useState(false);
+
 	return (
 		<div>
-			<Song />
-			<Player />
-			{console.log(songs)}
+			<Song currentSong={currentSong} />
+			<Player
+				currentSong={currentSong}
+				setIsPlaying={setIsPlaying}
+				isPlaying={isPlaying}
+			/>
 		</div>
 	);
 }
