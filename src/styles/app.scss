@@ -9,5 +9,14 @@ h3 {
 	color: rgb(54, 54, 54);
 }
 
+body {
+	font-family: "Langar", cursive;
+}
+h3,
+h4 {
+	font-weight: 400;
+	color: rgb(41, 40, 40);
+}
 @import "./song";
 @import "./player";
+@import "./library";

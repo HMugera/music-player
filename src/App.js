@@ -7,6 +7,7 @@ import data from "./songs-data/data";
 //Components
 import Player from "./components/player";
 import Song from "./components/song";
+import Library from "./components/Library";
 function App() {
 	//state
 	const [songs, setSongs] = useState(data());
@@ -21,6 +22,7 @@ function App() {
 				setIsPlaying={setIsPlaying}
 				isPlaying={isPlaying}
 			/>
+			<Library songs={songs} />
 		</div>
 	);
 }
