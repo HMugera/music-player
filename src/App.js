@@ -44,10 +44,10 @@ function App() {
 				isPlaying={isPlaying}
 				songInfo={songInfo}
 				setSongInfo={setSongInfo}
+				songs={songs}
+				setcurrentSong={setcurrentSong}
 			/>
-			{/* {libraryStatus ? (
-			
-			) : null} */}
+
 			<Library
 				libraryStatus={libraryStatus}
 				audioRef={audioRef}
