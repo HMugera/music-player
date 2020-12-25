@@ -76,7 +76,6 @@ function App() {
 				setSongs={setSongs}
 				setcurrentSong={setcurrentSong}
 				isPlaying={isPlaying}
-				libraryStatus={libraryStatus}
 				setLibraryStatus={setLibraryStatus}
 			/>
 
