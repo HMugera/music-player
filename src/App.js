@@ -50,7 +50,7 @@ function App() {
 		if (isPlaying) audioRef.current.play();
 	};
 	return (
-		<div>
+		<div className={`App ${libraryStatus ? "library-active" : ""}`}>
 			<Navbar
 				libraryStatus={libraryStatus}
 				setLibraryStatus={setLibraryStatus}

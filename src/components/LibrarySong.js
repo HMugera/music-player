@@ -10,7 +10,7 @@ function LibrarySong({
 }) {
 	const songSelecthandler = async () => {
 		const selectedSong = song;
-		console.log(selectedSong);
+
 		await setcurrentSong(selectedSong);
 		//Add active state
 		const newSongs = songs.map((song) => {
