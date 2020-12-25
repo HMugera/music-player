@@ -1,9 +1,13 @@
 import React from "react";
 
-function Song({ currentSong }) {
+function Song({ currentSong, isPlaying }) {
 	return (
 		<div className="song-container">
-			<img src={currentSong.cover} alt={currentSong.name} />
+			<img
+				className={isPlaying ? "isPlaying" : null}
+				src={currentSong.cover}
+				alt={currentSong.name}
+			/>
 
 			<h2>{currentSong.name}</h2>
 			<h3>{currentSong.artist}</h3>
