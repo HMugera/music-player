@@ -7,6 +7,8 @@ function LibrarySong({
 	setcurrentSong,
 	setSongs,
 	isPlaying,
+	libraryStatus,
+	setLibraryStatus,
 }) {
 	const songSelecthandler = async () => {
 		const selectedSong = song;
@@ -29,6 +31,7 @@ function LibrarySong({
 		setSongs(newSongs);
 		//check if song is playing
 		if (isPlaying) audioRef.current.play();
+		setLibraryStatus(!libraryStatus);
 	};
 	return (
 		<div

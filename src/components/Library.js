@@ -7,6 +7,7 @@ function Library({
 	setSongs,
 	audioRef,
 	libraryStatus,
+	setLibraryStatus,
 }) {
 	return (
 		<div className={`library ${libraryStatus ? "active-library" : null}`}>
@@ -21,6 +22,8 @@ function Library({
 						audioRef={audioRef}
 						isPlaying={isPlaying}
 						setSongs={setSongs}
+						libraryStatus={libraryStatus}
+						setLibraryStatus={setLibraryStatus}
 					/>
 				))}
 			</div>
