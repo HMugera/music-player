@@ -1,35 +1,52 @@
-# Getting Started with Create React App
+# Music Box
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a music player app I made with react,#sharpening my react skills.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live site
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Visit the live site [Here](https://react-music-box.vercel.app/)
 
-### `npm test`
+## Author 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Mugera Hughes](https://github.com/MugeraH)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Firstly, in order to run this application in your local machine, you need to have installed npm and Angular.
+- Clone the application using `https://github.com/HMugera/music-player.git`
+- Then run `npm install` to install application dependacies locally
+- Run `ng start -o` to start application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- HTML
+- CSS
+- JavaScript
+- React
+
+
+
+## Contact
+
+For any further questions, contributions or feedback, get in touch with me through the following contacts;
+
+- Email: bwosihughes24@gmail.com
+
+
+### License
+
+[MIT License](https://github.com/HMugera/music-player/blob/main/LICENSE) Copyright (c) {2021}
+
+
+
+
+
+
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
